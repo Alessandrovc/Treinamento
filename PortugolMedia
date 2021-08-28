@@ -1,0 +1,23 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real valor1,valor2,valor3,valor4,media,total
+		cadeia nomeVendedor
+
+		escreva("Qual o nome do vendedor ?:")
+		leia(nomeVendedor)
+		escreva("Qual o valor de vendas em janeiro ?:")
+		leia(valor1)
+		escreva("Qual o valor de vendas em fevereiro ?:")
+		leia(valor2)
+		escreva("Qual o valor de vendas em março ?:")
+		leia(valor3)
+		escreva("Qual o valor de vendas em abril ?:")
+		leia(valor4)
+		total = valor1 + valor2 + valor3 + valor4
+		media = total/4
+		escreva("O vendedor " + nomeVendedor + " obteve o total de " + total + " em vendas e média de " + media + ".")
+	}
+}
