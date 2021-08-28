@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro contador,limite,resultado,numero
+		escreva("Qual tabuada você deseja ?:")
+		leia(numero)
+		contador = 0
+		limite = 10
+		faca{
+			resultado = numero * contador
+			escreva(numero + " x " + contador + " = " + resultado + "\n")
+			contador ++
+		}enquanto(contador<=limite)
+	}
+}
